@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+
+label {
+    text-align: center;
+}
+
+p {
+    border: solid blue 5px;
+    padding: 10px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    margin: 10px;
+    /* max-width: 400px; */
+    width: 400px;
+    background-color: white;
+    color: black;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    /* max-width: 400px; */
+    width: 400px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: solid green 10px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.message {
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
